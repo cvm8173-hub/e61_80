@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/rajalakshmi-engineering-college-thandalam-chennai-24039",
-  "https://www.shiksha.com/college/veermata-jijabai-technological-institute-vjti-mumbai-matunga-east-19301",
-  "https://www.shiksha.com/university/shoolini-university-solan-31257",
-  "https://www.shiksha.com/college/bharati-vidyapeeths-college-of-engineering-mumbai-70993",
-  "https://www.shiksha.com/college/chaitanya-bharathi-institute-of-technology-hyderabad-gandipet-24090",
-  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-technology-pimpri-pune-47627",
-  "https://www.shiksha.com/college/college-of-engineering-chandigarh-group-of-colleges-landran-63523",
-  "https://www.shiksha.com/college/cvr-college-of-engineering-ranga-reddy-25365",
-  "https://www.shiksha.com/university/gla-university-mathura-36995",
-  "https://www.shiksha.com/university/dayalbagh-educational-institute-agra-53469",
-  "https://www.shiksha.com/university/dr-m-g-r-educational-and-research-institute-chennai-33330",
-  "https://www.shiksha.com/college/institute-of-engineering-and-management-salt-lake-city-kolkata-23742",
-  "https://www.shiksha.com/university/makaut-maulana-abul-kalam-azad-university-of-technology-kolkata-51181",
-  "https://www.shiksha.com/college/nhce-bangalore-new-horizon-college-of-engineering-marathahalli-46973",
-  "https://www.shiksha.com/college/mepco-schlenk-engineering-college-tamil-nadu-other-47924",
-  "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697",
-  "https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335",
-  "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397",
-  "https://www.shiksha.com/college/nmam-institute-of-technology-udupi-66357",
-  "https://www.shiksha.com/university/north-eastern-regional-institute-of-science-and-technology-itanagar-54382",
+  "https://www.shiksha.com/college/sri-ramachandra-faculty-of-engineering-and-technology-porur-chennai-150335",
+  "https://www.shiksha.com/university/guru-kashi-university-bathinda-47820",
+  "https://www.shiksha.com/university/institute-of-infrastructure-technology-research-and-management-ahmedabad-38286",
+  "https://www.shiksha.com/university/kaziranga-university-jorhat-42910",
+  "https://www.shiksha.com/college/rajiv-gandhi-institute-of-technology-kerala-kottayam-20096",
+  "https://www.shiksha.com/university/pondicherry-university-25028",
+  "https://www.shiksha.com/college/ciet-coimbatore-37521",
+  "https://www.shiksha.com/college/indian-institute-of-information-technology-vadodara-international-diu-campus-daman-diu-146129",
+  "https://www.shiksha.com/college/r-v-s-college-of-engineering-and-technology-rvscet-jamshedpur-47091",
+  "https://www.shiksha.com/college/gsss-institute-of-engineering-and-technology-for-women-mysore-59461",
+  "https://www.shiksha.com/college/goa-college-of-engineering-ponda-24277",
+  "https://www.shiksha.com/college/nims-institute-of-medical-and-allied-sciences-nims-university-jaipur-52946",
+  "https://www.shiksha.com/college/k-s-group-of-institutions-kanakapura-road-bangalore-36173",
+  "https://www.shiksha.com/college/geeta-university-panipat-53165",
+  "https://www.shiksha.com/college/global-institute-of-technology-jaipur-52516",
+  "https://www.shiksha.com/university/apex-university-jaipur-63261",
+  "https://www.shiksha.com/college/acs-college-of-engineering-mysore-road-bangalore-47514",
+  "https://www.shiksha.com/college/newton-school-of-technology-ajeenkya-dy-patil-university-pune-227787",
+  "https://www.shiksha.com/college/adi-shankara-institute-of-engineering-and-technology-ernakulum-30998",
+  "https://www.shiksha.com/university/royal-global-university-guwahati-52094",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =61
+    c_count =481
 
     try:
         for base_url in BASE_URL:
