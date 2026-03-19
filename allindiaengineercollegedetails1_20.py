@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/vivekananda-global-university-vgu-powered-by-sunstone-jaipur-211359",
-  "https://www.shiksha.com/college/brilliant-institute-of-engineering-and-technology-ranga-reddy-42609",
-  "https://www.shiksha.com/university/jaypee-university-anoopshahr-uttar-pradesh-other-46737",
-  "https://www.shiksha.com/college/salem-college-of-engineering-and-technology-61589",
-  "https://www.shiksha.com/college/vidyalankar-institute-of-technology-mumbai-189821",
-  "https://www.shiksha.com/university/bhagwant-university-ajmer-bua-38044",
-  "https://www.shiksha.com/college/patel-group-of-institutions-patel-college-of-science-technology-indore-60421",
-  "https://www.shiksha.com/college/college-of-agriculture-bangalore-59569",
-  "https://www.shiksha.com/college/government-engineering-college-jamui-66619",
-  "https://www.shiksha.com/college/impact-college-of-engineering-and-applied-sciences-sahakara-nagar-bangalore-38911",
-  "https://www.shiksha.com/college/bearys-institute-of-technology-bit-mangalore-47523",
-  "https://www.shiksha.com/college/baba-banda-singh-bahadur-engineering-college-fatehgarh-47542",
-  "https://www.shiksha.com/college/raj-kumar-goel-institute-of-technology-and-management-rkgitm-ghaziabad-37430",
-  "https://www.shiksha.com/university/university-of-agricultural-sciences-dharwad-60281",
-  "https://www.shiksha.com/college/seacom-group-of-colleges-howrah-42580",
-  "https://www.shiksha.com/college/al-azhar-college-of-engineering-and-technology-idukki-60233",
-  "https://www.shiksha.com/college/bharat-institute-of-technology-meerut-19311",
-  "https://www.shiksha.com/college/sushila-devi-bansal-college-of-technology-bansal-group-of-institutes-indore-43240",
-  "https://www.shiksha.com/college/rajeev-gandhi-prodyogiki-mahavidhyalaya-bhopal-60413",
-  "https://www.shiksha.com/college/national-institute-of-electronics-information-technology-gorakhpur-22175",
+  "https://www.shiksha.com/college/infant-jesus-college-of-engineering-tirunelveli-48102",
+  "https://www.shiksha.com/college/gangamai-college-of-engineering-dhule-59873",
+  "https://www.shiksha.com/college/government-engineering-college-sheikhpura-bihar-other-146459",
+  "https://www.shiksha.com/university/mahakaushal-university-jabalpur-208969",
+  "https://www.shiksha.com/college/abr-college-of-engineering-and-technology-abrcet-prakasam-46311",
+  "https://www.shiksha.com/college/university-college-of-engineering-kakatiya-university-kothagudem-telangana-other-63703",
+  "https://www.shiksha.com/university/aurora-higher-education-and-research-academy-deemed-to-be-university-hyderabad-211609",
+  "https://www.shiksha.com/college/sbnitm-shri-bhawani-niketan-institute-of-technology-and-management-jaipur-42305",
+  "https://www.shiksha.com/college/hi-tech-college-of-engineering-bhubaneswar-61413",
+  "https://www.shiksha.com/college/bhai-parmanand-dseu-shakarpur-campus-ii-shakarpur-delhi-64037",
+  "https://www.shiksha.com/college/iim-jammu-indian-institute-of-management-49179",
+  "https://www.shiksha.com/college/rsr-rungta-college-of-engineering-and-technology-bhilai-59027",
+  "https://www.shiksha.com/college/kakinada-institute-of-technology-and-science-tirupati-east-godavari-60523",
+  "https://www.shiksha.com/college/university-institute-of-technology-jhabua-rajiv-gandhi-proudyogiki-vishwavidyalay-madhya-pradesh-other-61811",
+  "https://www.shiksha.com/college/t-r-abhilashi-memorial-institute-of-engineering-and-technology-mandi-66833",
+  "https://www.shiksha.com/college/birla-institute-of-applied-sciences-uttarakhand-other-31376",
+  "https://www.shiksha.com/college/astral-institute-of-technology-and-research-astral-indore-43287",
+  "https://www.shiksha.com/college/hemnalini-memorial-college-of-engineering-kalyani-51755",
+  "https://www.shiksha.com/college/mysore-college-of-engineering-and-management-t-narsipura-road-mysuru-karnataka-other-59453",
+  "https://www.shiksha.com/college/seth-vishambhar-nath-group-of-educational-institutions-barabanki-59709",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 981
+    c_count = 1361
 
     try:
         for base_url in BASE_URL:
