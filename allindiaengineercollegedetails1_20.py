@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/government-engineering-college-baran-66615",
-  "https://www.shiksha.com/college/pw-institute-of-innovation-lucknow-241546",
-  "https://www.shiksha.com/college/sha-shib-college-of-technology-sha-shib-group-of-institutions-bhopal-36891",
-  "https://www.shiksha.com/college/institute-of-fisheries-biotechnology-tnjfu-omr-campus-padur-chennai-65883",
-  "https://www.shiksha.com/college/kles-college-of-engineering-and-technology-belgaum-72517",
-  "https://www.shiksha.com/college/academy-of-technology-hooghly-114285",
-  "https://www.shiksha.com/college/babasaheb-phadtare-polytechnic-pune-147581",
-  "https://www.shiksha.com/college/shri-ram-college-of-engineering-and-management-morena-149847",
-  "https://www.shiksha.com/college/cochin-college-of-engineering-and-technology-malappuram-60327",
-  "https://www.shiksha.com/college/college-of-food-technology-latur-71289",
-  "https://www.shiksha.com/college/nanhi-pari-seemant-engineering-institute-pithoragarh-156187",
-  "https://www.shiksha.com/college/vins-christian-college-of-engineering-nagercoil-43333",
-  "https://www.shiksha.com/college/sri-jayaram-institute-of-engineering-and-technology-tiruvallur-chennai-56765",
-  "https://www.shiksha.com/college/kankeshwaridevi-institute-of-technology-jamnagar-66755",
-  "https://www.shiksha.com/college/m-e-t-engineering-college-kanyakumari-61701",
-  "https://www.shiksha.com/college/dit-school-of-engineering-dit-g-greater-noida-36483",
-  "https://www.shiksha.com/college/i-e-s-institute-of-technology-and-management-bhopal-196791",
-  "https://www.shiksha.com/college/gokula-krishna-college-of-engineering-nellore-20063",
-  "https://www.shiksha.com/college/aizza-college-of-engineering-and-technology-telangana-other-23293",
-  "https://www.shiksha.com/college/vidharbha-institute-of-technology-nagpur-59439",
+  "https://www.shiksha.com/college/nadgir-institute-of-engineering-and-technology-karnataka-karnataka-other-59727",
+  "https://www.shiksha.com/college/csm-group-of-institutions-allahabad-60037",
+  "https://www.shiksha.com/college/vrs-and-yrn-college-of-engineering-technology-andhra-pradesh-other-60887",
+  "https://www.shiksha.com/college/pmr-engineering-college-chennai-61471",
+  "https://www.shiksha.com/college/nelliandavar-institute-of-technology-tamil-nadu-other-61507",
+  "https://www.shiksha.com/college/chandy-college-of-engineering-thoothukudi-61709",
+  "https://www.shiksha.com/college/international-college-of-engineering-ghaziabad-125801",
+  "https://www.shiksha.com/college/medi-caps-university-indore-powered-by-sunstone-212275",
+  "https://www.shiksha.com/college/intellipaat-school-of-technology-bangalore-246078",
+  "https://www.shiksha.com/college/sri-belimatha-maha-samasthana-institute-of-technology-indiranagar-bangalore-25452",
+  "https://www.shiksha.com/college/mumbai-institute-of-international-studies-cuffe-parade-25503",
+  "https://www.shiksha.com/college/national-institute-of-technical-teacher-s-training-and-research-bhopal-61319",
+  "https://www.shiksha.com/college/balwant-singh-mukhiya-college-of-engineering-roorkee-66527",
+  "https://www.shiksha.com/college/siddhi-vinayak-college-alwar-122793",
+  "https://www.shiksha.com/college/abha-college-of-engineering-nagpur-189695",
+  "https://www.shiksha.com/college/sant-gajanan-maharaj-college-of-engineering-kolhapur-190353",
+  "https://www.shiksha.com/college/government-engineering-college-araria-bihar-other-194803",
+  "https://www.shiksha.com/university/bharti-vishwavidyalaya-durg-226951",
+  "https://www.shiksha.com/college/vijayam-institute-of-technology-chittoor-231774",
+  "https://www.shiksha.com/college/maharana-pratap-institute-of-technology-gorakhpur-231892",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1781
+    c_count = 2201
 
     try:
         for base_url in BASE_URL:
