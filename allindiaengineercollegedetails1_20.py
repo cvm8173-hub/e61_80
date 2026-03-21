@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/nadgir-institute-of-engineering-and-technology-karnataka-karnataka-other-59727",
-  "https://www.shiksha.com/college/csm-group-of-institutions-allahabad-60037",
-  "https://www.shiksha.com/college/vrs-and-yrn-college-of-engineering-technology-andhra-pradesh-other-60887",
-  "https://www.shiksha.com/college/pmr-engineering-college-chennai-61471",
-  "https://www.shiksha.com/college/nelliandavar-institute-of-technology-tamil-nadu-other-61507",
-  "https://www.shiksha.com/college/chandy-college-of-engineering-thoothukudi-61709",
-  "https://www.shiksha.com/college/international-college-of-engineering-ghaziabad-125801",
-  "https://www.shiksha.com/college/medi-caps-university-indore-powered-by-sunstone-212275",
-  "https://www.shiksha.com/college/intellipaat-school-of-technology-bangalore-246078",
-  "https://www.shiksha.com/college/sri-belimatha-maha-samasthana-institute-of-technology-indiranagar-bangalore-25452",
-  "https://www.shiksha.com/college/mumbai-institute-of-international-studies-cuffe-parade-25503",
-  "https://www.shiksha.com/college/national-institute-of-technical-teacher-s-training-and-research-bhopal-61319",
-  "https://www.shiksha.com/college/balwant-singh-mukhiya-college-of-engineering-roorkee-66527",
-  "https://www.shiksha.com/college/siddhi-vinayak-college-alwar-122793",
-  "https://www.shiksha.com/college/abha-college-of-engineering-nagpur-189695",
-  "https://www.shiksha.com/college/sant-gajanan-maharaj-college-of-engineering-kolhapur-190353",
-  "https://www.shiksha.com/college/government-engineering-college-araria-bihar-other-194803",
-  "https://www.shiksha.com/university/bharti-vishwavidyalaya-durg-226951",
-  "https://www.shiksha.com/college/vijayam-institute-of-technology-chittoor-231774",
-  "https://www.shiksha.com/college/maharana-pratap-institute-of-technology-gorakhpur-231892",
+  "https://www.shiksha.com/college/institute-of-neurosciences-kolkata-240712",
+  "https://www.shiksha.com/college/iqraa-international-hospital-and-research-centre-kozhikode-240800",
+  "https://www.shiksha.com/college/muljibhai-patel-urological-hospital-nadiad-240840",
+  "https://www.shiksha.com/college/apollo-excelcare-hospital-guwahati-243756",
+  "https://www.shiksha.com/college/college-of-veterinary-and-animal-sciences-kishanganj-245554",
+  "https://www.shiksha.com/college/krishna-institute-moradabad-59961",
+  "https://www.shiksha.com/college/college-of-pharmacy-mit-group-moradabad-65469",
+  "https://www.shiksha.com/college/kritika-pharmacy-college-bareilly-65643",
+  "https://www.shiksha.com/college/arihant-college-of-pharmacy-haridwar-149167",
+  "https://www.shiksha.com/college/ghausia-college-of-pharmacy-fatehpur-149343",
+  "https://www.shiksha.com/college/excel-college-for-commerce-and-science-excel-group-institutions-namakkal-153639",
+  "https://www.shiksha.com/college/siya-ram-ganga-prasad-pharmacy-college-barabanki-181687",
+  "https://www.shiksha.com/college/hira-singh-yadav-college-of-pharamcy-ghazipur-181783",
+  "https://www.shiksha.com/college/sagar-college-of-pharmacy-tundla-firozabad-182045",
+  "https://www.shiksha.com/college/manjunatha-college-of-physiotherapy-bangalore-186655",
+  "https://www.shiksha.com/college/college-of-home-science-parbhani-190263",
+  "https://www.shiksha.com/college/sufiya-college-of-pharmacy-nagaur-193293",
+  "https://www.shiksha.com/college/u-h-medical-college-sundargarh-195757",
+  "https://www.shiksha.com/college/little-flower-institute-of-para-medical-sciences-bangalore-199699",
+  "https://www.shiksha.com/college/rbs-mahavidyalaya-allahabad-207533",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2201
+    c_count = 3540
 
     try:
         for base_url in BASE_URL:
