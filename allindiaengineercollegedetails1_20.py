@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/maa-sharda-college-of-pharmacy-azamgarh-181649",
-  "https://www.shiksha.com/college/dmr-pharmacy-college-uttar-pradesh-other-181701",
-  "https://www.shiksha.com/college/shashwat-suryavanshi-institute-of-pharmacy-ghazipur-181817",
-  "https://www.shiksha.com/college/vimla-institute-of-pharmacy-kanpur-181869",
-  "https://www.shiksha.com/college/rk-college-of-pharmacy-allahabad-181999",
-  "https://www.shiksha.com/college/sri-mahaveer-singh-pharmacy-college-raebareli-182007",
-  "https://www.shiksha.com/college/sri-sureshchandra-educational-institute-prayagraj-183907",
-  "https://www.shiksha.com/college/aditya-college-of-para-medical-sciences-bangalore-184895",
-  "https://www.shiksha.com/college/manjunatha-college-of-paramedical-sciences-bangalore-186653",
-  "https://www.shiksha.com/college/little-flower-institute-of-para-medical-sciences-bangalore-186711",
-  "https://www.shiksha.com/college/governmentcollege-of-nursing-beladula-road-raigarh-187565",
-  "https://www.shiksha.com/college/dr-mallela-ramaiah-college-of-nursing-nellore-189129",
-  "https://www.shiksha.com/college/institute-of-nursing-education-mumbai-189599",
-  "https://www.shiksha.com/college/majha-college-of-pharmacy-mcop-gurdaspur-236850",
-  "https://www.shiksha.com/college/rohilkhand-college-of-pharmacy-bareilly-237568",
-  "https://www.shiksha.com/college/yatharth-super-specialty-hospitals-greater-noida-240616",
-  "https://www.shiksha.com/college/medicover-hospitals-visakhapatnam-240834",
-  "https://www.shiksha.com/college/delhi-heart-lung-institute-delhi-other-243794",
-  "https://www.shiksha.com/college/sankar-reddy-institute-of-pharmaceutical-sciences-andhra-pradesh-other-61061",
-  "https://www.shiksha.com/college/t-m-a-es-ayurvedic-medical-college-and-s-c-s-hospital-hospet-68311",
+  "https://www.shiksha.com/college/united-institute-of-pharmacy-district-kurukshetra-self-financed-179899",
+  "https://www.shiksha.com/college/brd-college-of-pharmacy-uttarakhand-other-181083",
+  "https://www.shiksha.com/college/keshav-pharmacy-college-uttar-pradesh-other-181263",
+  "https://www.shiksha.com/college/meerut-vidyapeeth-educational-institute-uttar-pradesh-other-181303",
+  "https://www.shiksha.com/college/r-s-memorial-college-of-pharmacy-uttar-pradesh-other-181383",
+  "https://www.shiksha.com/college/krishna-pharmacy-college-agra-181577",
+  "https://www.shiksha.com/college/sarvodhya-adarsh-pharmacy-college-agra-181581",
+  "https://www.shiksha.com/college/uday-pharmacy-college-uttar-pradesh-other-181765",
+  "https://www.shiksha.com/college/shree-digamber-singh-angoori-devi-institute-of-pharmacy-mathura-181929",
+  "https://www.shiksha.com/college/aps-college-of-pharmacy-meerut-181959",
+  "https://www.shiksha.com/college/rajkiran-college-of-pharmacy-moradabad-181967",
+  "https://www.shiksha.com/college/dev-college-of-pharmacy-allahabad-181997",
+  "https://www.shiksha.com/college/vittala-international-institute-of-ophthalmology-bangalore-184821",
+  "https://www.shiksha.com/college/kings-college-haryana-other-236454",
+  "https://www.shiksha.com/college/modish-institute-of-pharmacy-palwal-236460",
+  "https://www.shiksha.com/college/dr-narayanrao-chate-college-of-pharmacy-latur-236696",
+  "https://www.shiksha.com/college/manwatkar-college-of-pharmacy-chandrapur-236722",
+  "https://www.shiksha.com/college/sumatidevi-tompe-institute-of-pharmaceutical-science-research-maharashtra-other-236800",
+  "https://www.shiksha.com/college/vision-institute-of-medical-science-and-reserch-orissa-other-236844",
+  "https://www.shiksha.com/college/khalsa-college-of-pharmacy-rampur-236996",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3861
+    c_count = 4221
 
     try:
         for base_url in BASE_URL:
