@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/waseem-turki-muslim-degree-college-amroha-77955",
-  "https://www.shiksha.com/college/maharshi-menhi-homoeopathic-medical-college-and-hospital-katihar-87383",
-  "https://www.shiksha.com/college/hon-r-r-patil-college-of-homoeopathy-and-hospital-and-research-center-sangli-87459",
-  "https://www.shiksha.com/university/j-s-university-firozabad-179601",
-  "https://www.shiksha.com/college/ayurveda-mahavidyalaya-hubli-185757",
-  "https://www.shiksha.com/college/nehru-college-of-physiotherapy-coimbatore-211443",
-  "https://www.shiksha.com/university/teamlease-skills-university-vadodara-47134",
-  "https://www.shiksha.com/college/r-g-college-of-pharmacy-hathras-65443",
-  "https://www.shiksha.com/college/om-sai-vindhya-college-of-pharmacy-mirzapur-65755",
-  "https://www.shiksha.com/college/postgraduate-institute-of-swasthiyog-pratisthan-maharashtra-other-69877",
-  "https://www.shiksha.com/college/dr-j-k-saikia-homeopathic-medical-college-jorhat-87561",
-  "https://www.shiksha.com/college/umar-bin-khattab-welfare-trust-s-d-pharmacy-college-aurangabad-88793",
-  "https://www.shiksha.com/college/sahyadri-speciality-hospital-pune-106101",
-  "https://www.shiksha.com/college/college-of-pharmacy-agra-59539",
-  "https://www.shiksha.com/college/disha-institute-of-pharmacy-dhampur-65489",
-  "https://www.shiksha.com/college/post-graduate-institute-of-hospital-administration-kolkata-74453",
-  "https://www.shiksha.com/college/mata-chanan-devi-hospital-delhi-105961",
-  "https://www.shiksha.com/college/mayaurakshi-college-jodhpur-140797",
-  "https://www.shiksha.com/college/jai-narayan-vyas-school-of-pharmacy-and-diploma-engineering-barmer-89255",
-  "https://www.shiksha.com/college/indira-gandhi-government-general-hospital-pondicherry-106111",
+  "https://www.shiksha.com/college/srinivasa-polytechnic-college-pusapatirega-vizianagaram-180515",
+  "https://www.shiksha.com/college/gajraula-college-of-pharmacy-and-research-centre-uttar-pradesh-other-181209",
+  "https://www.shiksha.com/college/sri-jai-singh-pharmacy-college-uttar-pradesh-other-181741",
+  "https://www.shiksha.com/college/shree-ram-college-of-pharmacy-uttar-pradesh-other-181907",
+  "https://www.shiksha.com/college/maharaja-agrasen-college-of-pharmacy-bharatpur-193445",
+  "https://www.shiksha.com/college/g-c-for-women-mahendergarh-mahendragarh-195327",
+  "https://www.shiksha.com/college/saraswati-ayurved-hospital-and-medical-college-sahibzada-ajit-singh-nagar-195887",
+  "https://www.shiksha.com/college/sri-eshwarammaji-para-medical-college-kolar-199645",
+  "https://www.shiksha.com/college/sushruta-institute-of-para-medical-science-hubli-199771",
+  "https://www.shiksha.com/college/ravindra-paramedical-institute-jhunjhunu-201387",
+  "https://www.shiksha.com/college/roohi-college-of-pharmacy-bangalore-207865",
+  "https://www.shiksha.com/college/st-george-college-of-pharmacy-bangalore-207969",
+  "https://www.shiksha.com/college/akash-institute-of-pharmaceuticals-education-and-technology-orissa-other-208107",
+  "https://www.shiksha.com/college/v-l-college-of-pharmacy-raichur-67739",
+  "https://www.shiksha.com/college/tara-vivek-college-malerkotla-77281",
+  "https://www.shiksha.com/college/shivpyari-ruthala-ayurved-vikas-sansthanayurved-nursing-training-center-jhunjhunu-87101",
+  "https://www.shiksha.com/college/sarvodaya-ayurved-nursing-training-centre-bundi-87111",
+  "https://www.shiksha.com/college/bhartiya-homeopathic-medical-college-and-hospital-bharatpur-87119",
+  "https://www.shiksha.com/college/jk-institute-of-pharmaceutical-education-and-research-bilaspur-cg-88655",
+  "https://www.shiksha.com/college/usha-dwarkadas-pathrikar-institute-of-pharmacy-aurangabad-89007",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2521
+    c_count = 3441
 
     try:
         for base_url in BASE_URL:
